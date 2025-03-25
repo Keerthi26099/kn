@@ -16,7 +16,7 @@ pipeline{
     stage('run')
     {
       step{
-        sh 'java H'
+        sh 'javac H.java'
       }
     }
   }
