@@ -5,20 +5,20 @@ stages{
 stage('clone')
 {
 steps{
- git "https://github.com/Keerthi26099/demo1_rep.git"
+ git "https://github.com/Keerthi26099/kn.git"
 }
 }
 stage('build')
 {
 
  steps{
-sh 'javac Hello.java'
+sh 'javac H.java'
 }
 }
 stage('run')
 {
  steps{
-sh 'javac Hello.java'
+sh 'javac H.java'
 }
 }
 }
